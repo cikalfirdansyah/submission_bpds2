@@ -4,7 +4,6 @@ import joblib
 
 # Load Model
 model = joblib.load('best_random_forest.pkl')
-st.success("✅ Model berhasil dimuat")
 
 # Judul Aplikasi
 st.title("🎓 Prediksi Status Mahasiswa (Graduate vs Dropout)")
